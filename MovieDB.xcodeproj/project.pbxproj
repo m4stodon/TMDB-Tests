@@ -58,16 +58,64 @@
 		CEB55E84250B7E8400783CA3 /* MovieDB */ = {
 			isa = PBXGroup;
 			children = (
+				CEB55E9C250B7EBA00783CA3 /* Application */,
+				CEB55EA1250B7F2B00783CA3 /* Modules */,
+				CEB55E9E250B7EDF00783CA3 /* Services */,
+				CEB55E9D250B7EC700783CA3 /* Resources */,
+			);
+			path = MovieDB;
+			sourceTree = "<group>";
+		};
+		CEB55E9C250B7EBA00783CA3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				CEB55E85250B7E8400783CA3 /* AppDelegate.swift */,
 				CEB55E87250B7E8400783CA3 /* SceneDelegate.swift */,
-				CEB55E89250B7E8400783CA3 /* ViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CEB55E9D250B7EC700783CA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				CEB55E8B250B7E8400783CA3 /* Main.storyboard */,
 				CEB55E91250B7E8900783CA3 /* Assets.xcassets */,
 				CEB55E93250B7E8900783CA3 /* LaunchScreen.storyboard */,
 				CEB55E96250B7E8900783CA3 /* Info.plist */,
 				CEB55E8E250B7E8400783CA3 /* MovieDB.xcdatamodeld */,
 			);
-			path = MovieDB;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEB55E9E250B7EDF00783CA3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CEB55EA0250B7F0000783CA3 /* Network */,
+				CEB55E9F250B7EE500783CA3 /* Storage */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CEB55E9F250B7EE500783CA3 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		CEB55EA0250B7F0000783CA3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CEB55EA1250B7F2B00783CA3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CEB55E89250B7E8400783CA3 /* ViewController.swift */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,13 +337,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = MovieDB/Resources/Assets.xcassets;
 				DEVELOPMENT_TEAM = ZXLCAVT38S;
-				INFOPLIST_FILE = MovieDB/Info.plist;
+				INFOPLIST_FILE = MovieDB/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MovieDB;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ermac.MovieDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,13 +356,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = MovieDB/Resources/Assets.xcassets;
 				DEVELOPMENT_TEAM = ZXLCAVT38S;
-				INFOPLIST_FILE = MovieDB/Info.plist;
+				INFOPLIST_FILE = MovieDB/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MovieDB;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ermac.MovieDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
