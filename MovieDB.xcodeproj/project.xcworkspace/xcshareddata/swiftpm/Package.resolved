@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire",
+        "state": {
+          "branch": null,
+          "revision": "becd9a729a37bdbef5bc39dc3c702b99f9e3d046",
+          "version": "5.2.2"
+        }
+      },
+      {
+        "package": "CoreStore",
+        "repositoryURL": "https://github.com/JohnEstropia/CoreStore",
+        "state": {
+          "branch": null,
+          "revision": "e7205048559e839f4b428f732bde6c056a572fb1",
+          "version": "7.2.0"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage",
+        "state": {
+          "branch": null,
+          "revision": "7a21432a370a34925046244462281bd36ebab73d",
+          "version": "5.9.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
